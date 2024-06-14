@@ -67,9 +67,49 @@ i:hover {
 
 .footer2 {
     overflow: hidden;
-    background-color: #000000;
+    background-color: #ffffff;
     margin-bottom: 100px;
     height: 300px;
+    border-style: solid;
+    border-color: #a1c0dd;
+    border-width: 20PX;
+}
+
+.krusty {
+    float: right;
+    width: 200px;
+    margin-right: 100px;
+}
+
+.krusty:hover {
+    cursor: pointer;
+}
+
+.krab {
+    color: rgb(182, 30, 30);
+    font-family: monospace;
+    font-size: 19px;
+    line-height: 25px;
+    padding: 10px 300px;
+}
+
+.window {
+    float: left;
+    width: 200px;
+    padding: 40px;
+}
+
+.window:hover {
+    cursor: pointer;
+}
+
+.contact2 {
+    color: rgb(182, 30, 30);
+    float: right;
+    font-family: monospace;
+    font-size: 19px;
+    line-height: 25px;
+    padding: 30px 200px;
 }
 
 .footer3 {
