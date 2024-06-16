@@ -114,21 +114,73 @@ i:hover {
 
 .footer3 {
     overflow: hidden;
-    background-color: #000000;
+    background-color: #134ecc;
     margin-bottom: 100px;
     height: 300px;
+    border-radius: 10px;
+}
+
+.about3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.line {
+    border-bottom: 1px solid #ffffff;
+  }
+
+.top {
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-family: Tahoma;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom {
+    display: block;
+    padding: 10px;
+    background-color: rgb(52, 133, 240);
+}
+
+.face {
+    font-family: Tahoma;
+    line-height: 30px;
+    color: white;
 }
 
 .footer4 {
     overflow: hidden;
-    background-color: #000000;
+    background-color: #4e99df;
     margin-bottom: 100px;
     height: 300px;
+    border-color: white;
+    border-width: 10px;
+    border-style: double;
+}
+
+.shark {
+    float: left;
+    margin-left: 50px;
+    width: 250px;
+}
+
+.contact4 {
+    margin: 30px 200px ;
+    float: left;
+}
+
+.number4 {
+    font-family: Courier;
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
 }
 
 .footer5 {
     overflow: hidden;
-    background-color: #000000;
+    background-color: aquamarine;
     margin-bottom: 100px;
     height: 300px;
 }
