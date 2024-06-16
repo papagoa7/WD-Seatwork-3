@@ -180,9 +180,285 @@ i:hover {
 
 .footer5 {
     overflow: hidden;
-    background-color: aquamarine;
+    background-color: rgb(255, 78, 78);
     margin-bottom: 100px;
     height: 300px;
+    border-style: outset;
+    border-width: 10px;
+}
+
+.valo {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+.rant {
+    margin-top: 26px;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+.footer6 {
+    font-family: Cambria;
+  overflow: hidden;
+  margin-bottom: 100px;
+  height: 300px;
+  margin-top: 70px;
+  color: white;
+  background-color: rgb(87, 23, 23);
+  padding: 20px;
+  line-height: 20px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 20px;
+  border-color: rgb(231, 190, 55);
+}
+
+.logo6 {
+    width: 250px;
+    float: left;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.about6 {
+    margin-right: 200px;
+    float: right;
+    color: white;
+}
+
+.freddy {
+    background-color: rgb(87, 23, 23);
+    line-height: 20px;
+    color: white;
+}
+
+.contact6 {
+    margin-left: 200px;
+    float: left;
+}
+
+.number6 {
+    line-height: 25px
+}
+
+.logo6:hover {
+    animation: pop 0.3s linear 1;
+}
+@keyframes pulse{
+  25%  {transform: scale(0.9);}
+  75%  {transform: scale(1.1);}
+}
+@keyframes push{
+  50%  {transform: scale(0.8);}
+}
+@keyframes pop{
+  50%  {transform: scale(1.2);}
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.faz {
+    width: 100px;
+    transition: transform .7s ease-in-out;
+}
+
+.faz:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+.footer7 {
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-bottom: 100px;
+    height: 300px;
+    border-style: solid;
+    border-color: #a1c0dd;
+    border-width: 20PX;
+}
+
+.krusty {
+    float: right;
+    width: 200px;
+    margin-right: 100px;
+}
+
+.krusty:hover {
+    cursor: pointer;
+}
+
+.krab {
+    color: rgb(182, 30, 30);
+    font-family: monospace;
+    font-size: 19px;
+    line-height: 25px;
+    padding: 10px 300px;
+}
+
+.window {
+    float: left;
+    width: 200px;
+    padding: 40px;
+}
+
+.window:hover {
+    cursor: pointer;
+}
+
+.contact7 {
+    color: rgb(182, 30, 30);
+    float: right;
+    font-family: monospace;
+    font-size: 19px;
+    line-height: 25px;
+    padding: 30px 200px;
+}
+
+.footer8 {
+    overflow: hidden;
+    background-color: #134ecc;
+    margin-bottom: 100px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.about8 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about8:hover {
+    animation: pulse 0.5s ease-in infinite;
+    animation: pulse 0.3s linear 1;
+}
+
+.line {
+    border-bottom: 1px solid #ffffff;
+  }
+
+.top {
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-family: Tahoma;
+    text-align: center;
+    cursor: pointer;
+    animation: pulse 0.5s ease-in infinite;
+    animation: pulse 0.3s linear 1;
+}
+
+.bottom {
+    display: block;
+    padding: 10px;
+    background-color: rgb(52, 133, 240);
+}
+
+.face {
+    font-family: Tahoma;
+    line-height: 30px;
+    color: white;
+}
+
+.footer9 {
+    overflow: hidden;
+    background-color: #4e99df;
+    margin-bottom: 100px;
+    height: 300px;
+    border-color: white;
+    border-width: 10px;
+    border-style: double;
+}
+
+.shark {
+    float: left;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.shark:hover {
+    animation: hithere 1s ease infinite;
+}
+@keyframes hithere {
+  30% { transform: scale(1.1); }
+  40%, 60% { transform: rotate(-20deg) scale(1.2); }
+  50% { transform: rotate(20deg) scale(1.2); }
+  70% { transform: rotate(0deg) scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.contact9 {
+    margin: 30px 200px ;
+    float: left;
+}
+
+.number9 {
+    font-family: Courier;
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+}
+
+.footer10 {
+    overflow: hidden;
+    background-color: rgb(255, 78, 78);
+    margin-bottom: 100px;
+    height: 300px;
+    border-style: outset;
+    border-width: 10px;
+}
+
+.valo {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+.valo:hover {
+    animation: valo 2s ease infinite;
+}
+@keyframes valo {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.rant {
+    margin-top: 26px;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+.rant:hover {
+    animation: rant 2s ease infinite;
+}
+@keyframes rant {
+  0% {
+    opacity: 0;
+    transform: translateX(+20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 
