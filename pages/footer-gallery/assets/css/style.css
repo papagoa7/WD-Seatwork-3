@@ -424,7 +424,7 @@ i:hover {
     font-family: Verdana;
 }
 
-.valo:hover {
+.about10 .valo:hover {
     animation: valo 2s ease infinite;
 }
 @keyframes valo {
@@ -447,7 +447,7 @@ i:hover {
     font-family: Verdana;
 }
 
-.rant:hover {
+.about10 .rant:hover {
     animation: rant 2s ease infinite;
 }
 @keyframes rant {
