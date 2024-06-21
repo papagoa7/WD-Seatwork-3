@@ -271,7 +271,7 @@ i:hover {
     transition: transform .7s ease-in-out;
 }
 
-.faz:hover {
+.about6 .faz:hover {
     cursor: pointer;
     transform: rotate(360deg);
 }
@@ -384,7 +384,7 @@ i:hover {
     width: 200px;
 }
 
-.shark:hover {
+.about9 .shark:hover {
     animation: hithere 1s ease infinite;
 }
 @keyframes hithere {
