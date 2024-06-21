@@ -271,7 +271,7 @@ i:hover {
     transition: transform .7s ease-in-out;
 }
 
-.about6 .faz:hover {
+.number6 .faz:hover {
     cursor: pointer;
     transform: rotate(360deg);
 }
