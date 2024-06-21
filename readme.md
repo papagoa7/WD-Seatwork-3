@@ -20,7 +20,7 @@
 ![](https://visit-counter.vercel.app/counter.png?page=4papagoa7/WD-Seatwork-3)
 
 <div align="center">
-  <a href="https://papagoa7.github.io/WD-Seatwork-3/">
+  <a href="https://papagoa7.github.io/WD-Seatwork-3/index.html">
     Link
   </a>
 </div>
